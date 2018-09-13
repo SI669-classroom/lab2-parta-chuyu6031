@@ -27,12 +27,11 @@ function countBig(bignum) {
     let i = 0;
 
     for (i = 0; i < bignum ;i++);
-
     let p = new Promise ((resolve, reject) => {
         if (i == bignum) resolve();
         else reject();
     })
-
+    
     return p;
 }
 
